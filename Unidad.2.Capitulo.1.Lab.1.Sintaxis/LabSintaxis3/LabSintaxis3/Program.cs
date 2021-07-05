@@ -24,8 +24,9 @@ namespace LabSintaxis3
             for (int i = 4; i >= 0; i--)
             {
                 Console.WriteLine("Posición {0}: {1}", i, array[i]);
-                Console.ReadKey();
             }
+
+            Console.ReadKey();
         }
     }
 }
